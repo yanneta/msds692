@@ -1,0 +1,5 @@
+INFO:root:Model path models/data_rand3sat_50-213_d_0.5_e60_p_c_score.pt
+INFO:root:Test data path ../test_data/rand3sat/100-426/
+INFO:root:TEST Flips Med: 550.00, Mean: 1528.53 Backflips Med: 458.00 Mean: 1440.20 Acc: 99.80 Loss: -1.00
+INFO:root:CI means FLIPS (1507.40, 1596.16), CI median (540.00, 540.00)
+INFO:root:CI means BACKFLIPS (1415.84, 1512.61), CI median (449.50, 449.50)

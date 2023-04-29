@@ -1,0 +1,5 @@
+INFO:root:Model path models/data_rand3sat_50-213_d_0.5_e60_p_c_score.pt
+INFO:root:Test data path ../test_data/rand3sat/50-213/
+INFO:root:TEST Flips Med: 129.25, Mean: 312.70 Acc: 100.00
+INFO:root:CI means FLIPS (271.87, 360.10), CI median (118.99, 118.99)
+INFO:root:CI median FLIPS low 119.00, med 129.25 high 142.00
