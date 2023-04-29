@@ -1,0 +1,134 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,underscore,amssymb,amsfonts,amsthm,array,hhline,setspace,graphicx,url,verbatim}
+
+\oddsidemargin -0.1in
+\evensidemargin 0.0in
+\textwidth 6.5in
+\headheight 0.0in
+\topmargin -0.5in
+\textheight 9.7in
+
+\setstretch{1.0}
+
+\newenvironment{itemize*}%
+  {\begin{itemize}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{itemize}}
+
+\begin{document}
+\pagestyle{empty}
+
+\noindent \begin{center}
+\begin{Large}\textbf{MSAN 630 -- Advanced Machine Learning}\\
+\textbf{Instructor: Yannet Interian}\\
+\textbf{Course Syllabus}\\
+\textbf{Spring 2021}\\\end{Large}
+\end{center}
+
+\vspace{0.15in}
+
+\fbox{
+\parbox{15cm}{
+\begin{center}
+\noindent \textbf{SUMMARY INFORMATION}\\
+\noindent \textbf{Office:} 101 Howard, \# 605 \\
+\noindent \textbf{Email Address:} \url{yinterian@usfca.edu}\\\vspace{0.10in}
+\noindent \textbf{Class Time:}  Tuesdays and Thursdays 10am - 11:50pm and 1pm - 2:50pm \\
+\noindent \textbf{Office Hours:} 3pm-4pm Tuesdays and Thursdays in my office.
+\end{center}
+}
+}
+
+\vspace{0.25in}
+
+\noindent \textbf{COURSE GOALS}\\
+On completion of this course the student should be able to:
+\vspace{-0.05in}
+
+\begin{itemize*}
+\item	Describe and apply several learning algorithms/ models and their variants, including: Boosting, Collaborative Filtering, Neural Networks, Word Embeddings.
+\item	Select the appropriate learning algorithm or approach for a given situation or dataset.
+%\item	Apply the principles of feature selection, feature engineering and hyper-parameter tuning.
+\item Implement from scratch various machine learning algorithms in Python: Gradient Boosting, Matrix Factorization.
+\item Implement basic Neural Networks in PyTorch (for example Continuous Bag of Words for Text Classification).
+\item Implement advanced feature engineering techniques.
+\item	As part of a team, carry out a machine learning project from start to end, including:
+\begin{itemize*}
+\item Research literature related to the problem.
+\item Prepare the data for application of algorithms, including feature engineering.
+\item	Choose and apply the appropriate ML algorithms (as well as hyper-parameter tuning).
+\item Evaluate the results.
+\item Communicate the results both orally and in writing.
+\end{itemize*}
+\end{itemize*}
+
+\noindent \textbf{COURSE CONTENT} (subject to change)
+
+\vspace{-0.05in}
+
+\begin{itemize*}
+\item	Recommendation Algorithms: Collaborative Filtering, Matrix Factorization.
+\item Boosting: Adaboost, Gradient Boosting.
+\item Neural Networks, Pytorch.
+\item Applications of Neural Networks: text classification, recommendation systems.
+\item Word Embeddings.
+\item Autoencoders
+\end{itemize*}
+\vspace{0.1in}
+
+\noindent \noindent \textbf{TEXTBOOKS} \\
+\vspace{-0.05in}
+\begin{enumerate}
+\item Pattern Recognition and Machine Learning. Bishop. 
+\item The Elements of Statistical Learning: Data Mining, Inference, and Prediction. Trevor Hastie, Robert Tibshirani, Jerome Friedman. \url{https://statweb.stanford.edu/~tibs/ElemStatLearn/} 
+\item Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville.  \url{http://www.deeplearningbook.org/}
+\item Mining of Massive Datasets. Jure Leskovec, Anand Rajaraman and Jeffrey D. Ullman (Chapters 8, 9). \url{www.mmds.org}
+\item Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville \url{http://www.deeplearningbook.org}
+\item Machine Learning: A Probabilistic Perspective. Kevin Murphy. 
+\end{enumerate}
+
+\noindent \textbf{Homework.} You will be required to complete 5 homework assignments. You must work on homework \textbf{individually} and \textbf{turn in your own individualized write-up and code}. All homework assignments are to be completed and submitted individually. You may consult with other students in the class regarding homework, but each student should complete all parts of the assignment successfully without assistance.\\
+
+\noindent \textbf{Exams.} You will be required to complete 2 quizzes and a final exam.  All quizzes and exams are going to be closed books and notes.\\
+
+\noindent \textbf{Grading.} Part of my job as an instructor is to assign grades fairly and in a manner that reflects the high academic standards at the University of San Francisco and in the MSAN program. Your grade in this course will be computed according to the following weights:\\
+
+\vspace{-0.15in}
+
+\begin{center}
+\begin{tabular}{|r|c|}
+  \hline
+  \textbf{Component} & \textbf{Weight} \\
+  \hline
+  Homework & 15\%  \\
+  Exams & 70\%  \\
+  Final Project & 15\% \\
+  \hline
+\end{tabular}
+\end{center}
+
+\noindent \textbf{On grades.} The MSDS program considers a grade of ``A" to represent exceptional work with respect to both the instructor's expectations and peer student achievements. A grade of ``B" represents the expected outcome, what is called ``competence" in a business setting. A ``C" grade represents achievements lower than the instructor's expectations for competence in the subject. A grade of ``F" represents unacceptably low level of knowledge and understanding of subject matter.  Scores less than 60\% on Exams or less than 60\% on the overall grade are considered ``F" in this class. \\
+
+\noindent \textbf{On cheating.} As a Jesuit institution committed to \emph{cura personalis}---the care and education of the whole person---the University of San Francisco has an obligation to embody and foster the values of honesty and integrity. The university upholds standards of honesty and integrity from all members of the academic community, including faculty, students, and staff. All students are expected to know and to adhere to the university's honor code. You can find the full text of the code online at \url{http://www.usfca.edu/catalog/policies/honor/}. You are also bound by the terms of the MSAN Code of Conduct that you signed prior to matriculating in the analytics program. Refer to ON HOMEWORK and ON CASE STUDIES sections for details regarding student collaboration on each category of deliverable. Plagiarism consists of copying \emph{any} material from \emph{any} source and submitting it as your own original work, regardless of where that material was sourced: the Internet, a book, textbook, or from deliverables previously submitted by other students. All students involved in any cheating or plagiarized deliverables, i.e., the cheater as well as the person(s) who willfully enabled or facilitated the act of cheating, will be reported to the MSAN Program Director. If you ever have questions about what constitutes plagiarism, cheating, or academic dishonesty in this course, I am happy to discuss with you at your convenience.\\
+
+\noindent \textbf{On disability.} If you are a student with a disability or disabling condition, or if you think you may have a disability, please contact USF Student Disability Services (SDS) at 415.422.2613 within the first week of class, or immediately upon onset of the disability, to speak with a disability specialist. If you are determined eligible for reasonable accommodations, please meet with your disability specialist so they can arrange to have your accommodation letter sent to me, and we will discuss your needs for this course. For more information, please visit \url{http://www.usfca.edu/sds/} or call 415.422.2613. {\bf Accommodations are not retroactive.}\\
+
+\noindent \textbf{On behavioral expectations.} All students are expected to behave in accordance with the Student Conduct Code and University policies (see \url{http://www.usfca.edu/fogcutter/}).  Open discussion and disagreement is encouraged when done respectfully and in the spirit of academic discourse. There are also a variety of behaviors that, while not against a specific University policy, may create disruption in this course. Students whose behavior is disruptive or who fail to comply with the instructor may be dismissed from the class for the remainder of the class period and may need to meet with the instructor or Dean prior to returning to the next class period. If necessary, referrals may also be made to the Student Conduct process for violations of the Student Conduct Code. \\
+
+\noindent \textbf{On the learning \& writing center.} The Learning \& Writing Center provides assistance to all USF students in pursuit of academic success. Peer tutors provide regular review and practice of course materials in the subjects of Math, Science, Business, Economics, Nursing and Languages. Other content areas can be made available by student request. To schedule an appointment, log on to TutorTrac at \url{https://tutortrac.usfca.edu}. Students may also take advantage of writing support provided by Rhetoric and Language Department instructors and academic study skills support provided by Learning Center professional staff. For more information about these services contact the Learning \& Writing Center at 415.422.6713, \verb!lwc@usfca.edu! or stop by Cowell 215. Information may also be found at \url{twww.usfca.edu/lwc}.\\
+
+\noindent \textbf{On Counseling and Psychological Services.}  Our diverse staff offers individual, couple, and group counseling to student members of our community. Services are confidential and free of charge. Call 415.422.6352 for an initial consultation appointment. Having a crisis at 3 AM? We are still here for you. Telephone consultation after hours is available between the hours of 5:00 PM to 8:30 AM; call the above number and press 2.\\
+
+\noindent \textbf{On Illnesses and Emergencies.} If you fall ill or have an emergency (personal or otherwise) that significantly affects your ability to complete a project or take an exam, you must notify the instructor before the task or artifact is due. Do not simply skip an exam or an assignment and say you were sick after the fact. Always make arrangements with the instructor beforehand, rather than declaring illness or emergency later. **Accommodations are not retroactive.**  Illness and emergency related situations must be disclosed to both the instructor and program director in writing. Illness-related issues must be accompanied by a doctor’s note.\\
+
+\noindent \textbf{On confidentiality, mandatory reporting and sexual assault.} As an instructor, one of my responsibilities is to help create a safe learning environment on our campus. I also have a mandatory reporting responsibility related to my role as a faculty member. I am required to share information regarding sexual misconduct or information about a crime that may have occurred on USF's campus with the University. Here are other resources:
+\begin{itemize}
+\item To report any sexual misconduct, students may visit Anna Bartkowski (UC 5$^{th}$ floor) or see many other options by visiting our website: \url{www.usfca.edu/student_life/safer}
+\item Students may speak to someone confidentially, or report a sexual assault confidentially by contacting Counseling and Psychological Services at 415.422.6352. 
+\item To find out more about reporting a sexual assault at USF, visit USF's Callisto website at: \url{www.usfca.callistocampus.org}.
+\item For an off-campus resource, contact San Francisco Women Against Rape 415.647.7273 (\url{www.sfwar.org}).
+\end{itemize}
+
+
+\end{document}
