@@ -1,4 +1,4 @@
-# Data Acqusition
+# Data Acquisition
 The field of data science offers an abundance of intriguing and captivating challenges, ranging from identifying relevant research questions to selecting suitable features, training models, and interpreting results. However, all of these endeavors rely on a well-organized and structured dataset that can be analyzed and modeled. According to industry experts, collecting and preparing data typically constitutes around 75% of any analytical project.
 
 Although this course is called "Data Acquisition," it is important to recognize that obtaining data is merely the first step. After acquiring the data, we must organize it into structured formats and often extract meaningful insights from raw data. For example, we may need to distill a Twitter feed into a single positive or negative sentiment score for a specific user. This course will provide you with the essential skills to collect, structure, consolidate, and extract insights from diverse data sources, preparing you for effective analytical work. Along the way, you will develop expertise in various tools and technologies, including the command line, git, and APIs.
