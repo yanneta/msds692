@@ -29,8 +29,7 @@ This command should print a list of albums
 This command should print a list of songs
 `python lyrics.py -s`
 
-Given the name of a song `-l <song name>` should pring the lyrics of the song
+Given the name of a song `-l <song name>` should print the lyrics of the song
 `python lyrics.py -l "Suzanne"
 
-Note: I will only be testing songs present in one of the album*.html urls since the other urls have a different structure.`
-
+Note: I will only be testing songs present in one of the album*.html urls since the other urls have a different structure.
