@@ -1,4 +1,36 @@
-# Data Acquisition
+* Data Acquisition
+
+
+*Description*
 The field of data science offers an abundance of intriguing and captivating challenges, ranging from identifying relevant research questions to selecting suitable features, training models, and interpreting results. However, all of these endeavors rely on a well-organized and structured dataset that can be analyzed and modeled. According to industry experts, collecting and preparing data typically constitutes around 75% of any analytical project.
 
 Although this course is called "Data Acquisition," it is important to recognize that obtaining data is merely the first step. After acquiring the data, we must organize it into structured formats and often extract meaningful insights from raw data. For example, we may need to distill a Twitter feed into a single positive or negative sentiment score for a specific user. This course will provide you with the essential skills to collect, structure, consolidate, and extract insights from diverse data sources, preparing you for effective analytical work. Along the way, you will develop expertise in various tools and technologies, including the command line, git, and APIs.
+
+*Grading*
+Exams 50%, HWs 40%, Labs 10%
+
+*Instructor*
+Yannet Interian (yinterian@usfca)
+
+
+* Syllabus
+Here is a tentative schedule for the course:
+
+| Date | Topic    | Notebooks| Homework / Lab     |
+|------+----------+----------+--------------------|
+| Aug 21 | HTLM & BeautifulSoup| | HW1: BeautifulSoup (due Aug 28)|
+| Aug 25 | Terminal & command-line| | |
+| Aug 28 | Command-line & git| | |
+| Sep 1 | Data Formats, XML, XPath | | HW2: Data pipeline (due Sep 8)|
+| Sep 4 | Labor Day - No Class| | |
+| Sep 8 | Text feature extraction| | HW3: TFIDF (due Sep 15)|
+| Sep 11 | Text manipulation, Spacy | | |
+| Sep 15 | Scraping with Selenium| | |
+| Sep 18 |Exam | | |
+| Sep 22 | Hashtable implementations| | HW4: Hash table (due Sep 29)|
+| Sep 25 | Selenium Part 2 | | |
+| Sep 29 | Flask| | HW5: Recommending server (due Oct 6)|
+| Oct 2 | REST API| | |
+| Oct 6 | | | |
+| Oct 9 | GPT for creating labels| | |
+| Oct 13 | Exam| | |
