@@ -18,7 +18,7 @@ Here is a tentative schedule for the course:
 
 | Date | Topic    | Notebooks| Homework / Lab     |
 |------+----------+----------+--------------------|
-| Aug 21 | HTLM & BeautifulSoup|[[ https://github.com/yanneta/msds692/blob/master/notebooks/lecture_1_beautifulsoup.ipynb][lecture_1_beautifulsoup.ipynb]] | HW1: BeautifulSoup (due Aug 28)|
+| Aug 21 | HTLM & BeautifulSoup|[[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_1_beautifulsoup.ipynb][lecture_1_beautifulsoup.ipynb]] | HW1: BeautifulSoup (due Aug 28)|
 | Aug 25 | Terminal & command-line| | |
 | Aug 28 | Command-line & git| | |
 | Sep 1 | Data Formats, XML, XPath | | HW2: Data pipeline (due Sep 8)|
