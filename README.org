@@ -18,15 +18,14 @@ Here is a tentative schedule for the course:
 
 | Date | Topic    | Notebooks| Homework / Lab     |
 |------+----------+----------+--------------------|
-| Aug 21 | HTLM & BeautifulSoup|[[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_1_beautifulsoup.ipynb][lecture_1_beautifulsoup.ipynb]] | HW1: BeautifulSoup (due Aug 28)|
-| Aug 25 | Terminal & command-line| | |
-| Aug 28 | Command-line & git| | |
-| Sep 1 | Data Formats, XML, XPath | | HW2: Data pipeline (due Sep 8)|
-| Sep 4 | Labor Day - No Class| | |
-| Sep 8 | Text feature extraction| | HW3: TFIDF (due Sep 15)|
-| Sep 11 | Text manipulation, Spacy | | |
-| Sep 15 | Scraping with Selenium| | |
-| Sep 18 |Exam | | |
+| Aug 25 | HTLM & BeautifulSoup|[[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_1_beautifulsoup.ipynb][lecture_1_beautifulsoup.ipynb]] | HW1: BeautifulSoup (due Aug 28)|
+| Aug 28 | Terminal & command-line| | |
+| Sep 1 | Command-line & git| | |
+| Sep 4 | Labor Day - No Class| | | 
+| Sep 8 | Data Formats, XML, XPath | | HW2: Data pipeline (due Sep 8)|
+| Sep 11 | Text feature extraction| | HW3: TFIDF (due Sep 15)|
+| Sep 15 | Text manipulation, Spacy | | |
+| Sep 18 |  Scraping with Selenium / Exam| | | 
 | Sep 22 | Hashtable implementations| | HW4: Hash table (due Sep 29)|
 | Sep 25 | Selenium Part 2 | | |
 | Sep 29 | Flask| | HW5: Recommending server (due Oct 6)|
