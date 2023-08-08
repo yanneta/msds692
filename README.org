@@ -18,17 +18,17 @@ Here is a tentative schedule for the course:
 
 | Date | Topic    | Notebooks| Homework / Lab     |
 |------+----------+----------+--------------------|
-| Aug 25 | HTLM & BeautifulSoup|[[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_1_beautifulsoup.ipynb][lecture_1_beautifulsoup.ipynb]] | HW1: BeautifulSoup (due Aug 28)|
-| Aug 28 | Terminal & command-line| | |
-| Sep 1 | Command-line & git| | |
+| Aug 25 | HTLM & BeautifulSoup|[[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_1_beautifulsoup.ipynb][lecture_1_beautifulsoup.ipynb]] | HW1: BeautifulSoup (due Aug 31)|
+| Aug 28 | Terminal & command-line| | Lab 1|
+| Sep 1 | Command-line & git| | Lab 2|
 | Sep 4 | Labor Day - No Class| | | 
-| Sep 8 | Data Formats, XML, XPath | | HW2: Data pipeline (due Sep 8)|
-| Sep 11 | Text feature extraction| | HW3: TFIDF (due Sep 15)|
+| Sep 8 | Data Formats, XML, XPath | | HW2: Data pipeline (due Sep 14)|
+| Sep 11 | Text feature extraction| | HW3: TFIDF (due Sep 21)|
 | Sep 15 | Text manipulation, Spacy | | |
-| Sep 18 |  Scraping with Selenium / Exam| | | 
-| Sep 22 | Hashtable implementations| | HW4: Hash table (due Sep 29)|
+| Sep 18 | EXAM/  Hashtable implementations| | HW4: Hash table (due Sep 28)| | | 
+| Sep 22 | Scraping with Selenium | | |
 | Sep 25 | Selenium Part 2 | | |
-| Sep 29 | Flask| | HW5: Recommending server (due Oct 6)|
+| Sep 29 | Flask| | HW5: Recommending server (due Oct 5)|
 | Oct 2 | REST API| | |
 | Oct 6 | End to end Data Science Project| | |
 | Oct 9 | GPT for creating labels| | |
