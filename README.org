@@ -8,6 +8,7 @@ Although this course is called "Data Acquisition," it is important to recognize 
 
 *Grading*
 Exams 60%, HWs 30%, Labs 10%
+
 Note: to pass this course you need at least 50% grade on exams.
 
 *Instructor*
