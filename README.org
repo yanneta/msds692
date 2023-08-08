@@ -9,7 +9,8 @@ Although this course is called "Data Acquisition," it is important to recognize 
 *Grading*
 Exams 60%, HWs 30%, Labs 10%
 
-Note: to pass this course you need at least 50% grade on exams.
+To successfully pass the class, a student must achieve a minimum grade of 50% on the exams.
+
 
 *Instructor*
 Yannet Interian (yinterian@usfca)
