@@ -9,7 +9,7 @@ Although this course is called "Data Acquisition," it is important to recognize 
 *Grading*
 Exams 60%, HWs 30%, Labs 10%
 
-To successfully pass the class, a student must achieve a minimum grade of 50% on the exams.
+To successfully pass the course, a student must achieve a minimum grade of 50% on the exams.
 
 
 *Instructor*
