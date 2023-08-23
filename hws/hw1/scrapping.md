@@ -15,7 +15,7 @@ Create a Python script that gathers information about Leonard Cohen's songs and 
 
 (a) A list of unique albums by Leonard Cohen, along with links for more information about each album. Extract this data from the website "https://www.leonardcohenfiles.com/songind.html".
 
-(b) A unique list of songs by Leonard Cohen, extracted from the same website mentioned above.
+(b) A list of unique songs by Leonard Cohen, extracted from the same website.
 
 (c) Given the name of a song, retrieve the lyrics for that specific song.
 
