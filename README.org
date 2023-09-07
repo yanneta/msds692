@@ -25,7 +25,7 @@ Here is a tentative schedule for the course:
 | Aug 28 | Terminal & command-line| | Lab 1|
 | Sep 1 | Command-line & git| | Lab 2|
 | Sep 4 | Labor Day - No Class| | | 
-| Sep 8 | Data Formats, XML, XPath | | HW2: Data pipeline (due Sep 14)|
+| Sep 8 | Data Formats, XML, XPath | [[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_4_xml_xpath.ipynb][lecture_4_xml_xpath.ipynb]] | HW2: Data pipeline (due Sep 14)|
 | Sep 11 | Text feature extraction| | HW3: TFIDF (due Sep 21)|
 | Sep 15 | Text manipulation, Spacy | | |
 | Sep 18 | EXAM/  Hashtable implementations| | HW4: Hash table (due Sep 28)| 
