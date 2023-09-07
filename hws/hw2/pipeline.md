@@ -58,6 +58,11 @@ when,a,b
 
 To parse that, we read the file and convert it to a list of lines and then we split each line on commas. That gives us a list of lists. Of course, the first line of the file is special; it is the header row. Let's get this first task out of the way then by completing the following code in `mycsv.py`:
 
+To test your solution run:
+```
+pytest test_mycsv.py
+```
+
 Or, if you want to go back to csv format, you could use the following Python code:
 
 ```python
