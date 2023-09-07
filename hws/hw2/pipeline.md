@@ -48,7 +48,7 @@ The data follows the header row, with one record per line. The key element of th
 
 ### Parsing simple CSV files
 
-It's often best to start with a tiny input example before tackling a bigger data set. I made a small CSV file:
+It's often best to start with a tiny input example before tackling a bigger data set:
  
 ```csv
 when,a,b
@@ -57,12 +57,6 @@ when,a,b
 ```
 
 To parse that, we read the file and convert it to a list of lines and then we split each line on commas. That gives us a list of lists. Of course, the first line of the file is special; it is the header row. Let's get this first task out of the way then by completing the following code in `mycsv.py`:
-
-To test your solution run:
-
-```python
-pytest test_mycsv.py
-```
 
 Or, if you want to go back to csv format, you could use the following Python code:
 
