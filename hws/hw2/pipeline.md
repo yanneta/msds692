@@ -236,27 +236,31 @@ Each of the five translators will be tested automatically. Any programming error
 
 
 ```bash
-$ ./testformats.sh data output
-testing csv2html.py
+$./testdata.sh data output 
+Test AAPL
    csv2html: output/AAPL.html and /tmp/csv2html-AAPL.html same
-   csv2html: output/TSLA.html and /tmp/csv2html-TSLA.html same
-   csv2html: output/t.html and /tmp/csv2html-t.html same
-testing csv2xml.py
    csv2xml: output/AAPL.xml and /tmp/csv2xml-AAPL.xml same
-   csv2xml: output/TSLA.xml and /tmp/csv2xml-TSLA.xml same
-   csv2xml: output/t.xml and /tmp/csv2xml-t.xml same
-testing csv2json.py
    csv2json: output/AAPL.json and /tmp/csv2json-AAPL.json same
-   csv2json: output/TSLA.json and /tmp/csv2json-TSLA.json same
-   csv2json: output/t.json and /tmp/csv2json-t.json same
-testing xml2csv.py
    xml2csv: data/AAPL.csv and /tmp/xml2csv-AAPL.csv same
-   xml2csv: data/TSLA.csv and /tmp/xml2csv-TSLA.csv same
-   xml2csv: data/t.csv and /tmp/xml2csv-t.csv same
-testing json2csv.py
    json2csv: data/AAPL.csv and /tmp/json2csv-AAPL.csv same
+   xml2csv|csv2xml: output/AAPL.xml and /tmp/xml2csv-csv2xml-AAPL.xml same
+   json2csv|csv2json: output/AAPL.json and /tmp/json2csv-csv2json-AAPL.json same
+Test TSLA
+   csv2html: output/TSLA.html and /tmp/csv2html-TSLA.html same
+   csv2xml: output/TSLA.xml and /tmp/csv2xml-TSLA.xml same
+   csv2json: output/TSLA.json and /tmp/csv2json-TSLA.json same
+   xml2csv: data/TSLA.csv and /tmp/xml2csv-TSLA.csv same
    json2csv: data/TSLA.csv and /tmp/json2csv-TSLA.csv same
+   xml2csv|csv2xml: output/TSLA.xml and /tmp/xml2csv-csv2xml-TSLA.xml same
+   json2csv|csv2json: output/TSLA.json and /tmp/json2csv-csv2json-TSLA.json same
+Test t
+   csv2html: output/t.html and /tmp/csv2html-t.html same
+   csv2xml: output/t.xml and /tmp/csv2xml-t.xml same
+   csv2json: output/t.json and /tmp/csv2json-t.json same
+   xml2csv: data/t.csv and /tmp/xml2csv-t.csv same
    json2csv: data/t.csv and /tmp/json2csv-t.csv same
+   xml2csv|csv2xml: output/t.xml and /tmp/xml2csv-csv2xml-t.xml same
+   json2csv|csv2json: output/t.json and /tmp/json2csv-csv2json-t.json same
 ```
 
 To get credit for the various deliverables, all related tests must pass, as shown here.
