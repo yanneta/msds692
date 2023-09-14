@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<newsitem itemid="33144" id="root" date="1996-09-04" xml:lang="en">
+<title>Example news item.</title>
+<headline>Danzas H1 net profit rises.</headline>
+<dateline>BASLE, Switzerland 1996-09-04</dateline>
+<text>
+<p>Here is the text for the example news item.</p>
+<p>It has two paragraphs.</p>
+</text>
+<copyright>JAJAJA</copyright>
+</newsitem>
