@@ -9,6 +9,18 @@ import os
 import numpy as np
 import re
 
+"""
+pytest -v
+
+test_tfidf.py::test_gettext PASSED                                                              [ 14%]
+test_tfidf.py::test_tokenize PASSED                                                             [ 28%]
+test_tfidf.py::test_tokenize_2 PASSED                                                           [ 42%]
+test_tfidf.py::test_doc_freq PASSED                                                             [ 57%]
+test_tfidf.py::test_compute_tfidf_i PASSED                                                      [ 71%]
+test_tfidf.py::test_compute_tfidf PASSED                                                        [ 85%]
+test_tfidf.py::test_summarize PASSED                                                            [100%]
+"""
+
 def gettext(xmlfile) -> str:
     """
     Parse xmltext and return the text from <title> and <text> tags

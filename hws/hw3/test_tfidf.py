@@ -5,13 +5,14 @@ import sys
 """
 pytest -v
 
-test_tfidf.py::test_load_corpus PASSED                                                                       [ 14%]
-test_tfidf.py::test_gettext PASSED                                                                           [ 28%]
-test_tfidf.py::test_tokenize PASSED                                                                          [ 42%]
-test_tfidf.py::test_doc_freq PASSED                                                                          [ 57%]
-test_tfidf.py::test_compute_tfidf_i PASSED                                                                   [ 71%]
-test_tfidf.py::test_compute_tfidf PASSED                                                                     [ 85%]
-test_tfidf.py::test_summarize PASSED                                                                         [100%]
+test_tfidf.py::test_gettext PASSED                                                                              [ 14%]
+test_tfidf.py::test_tokenize PASSED                                                                             [ 28%]
+test_tfidf.py::test_tokenize_2 PASSED                                                                           [ 42%]
+test_tfidf.py::test_doc_freq PASSED                                                                             [ 57%]
+test_tfidf.py::test_compute_tfidf_i PASSED                                                                      [ 71%]
+test_tfidf.py::test_compute_tfidf PASSED                                                                        [ 85%]
+test_tfidf.py::test_summarize PASSED                                                                            [100%]
+
 """
 
 testfiles = [
@@ -63,6 +64,14 @@ freq_expected = {'cat': 4,
  'two': 1,
  'like': 1}
 
+counts_expected = {'usa': 1, 'old': 1, 'america': 1, 'stores': 1, 'inc': 1, \
+                   'loss': 5, 'profit': 1, 'thousand': 1, 'share': 7, 'datum': 1,\
+                   'week': 2, 'end': 2, 'jul': 4, 'net': 6, 'sale': 2, 'income': 4, \
+                   'weight': 2, 'average': 2, 'outstanding': 2, 'note': 1, 'include': 1,\
+                   'charge': 1, 'legal': 1, 'cost': 1, 'relate': 1, 'unsuccessful': 1,\
+                   'acquisition': 1, 'effort': 1}
+
+
 tfidf_expected = [{'cat': 0.091, 'hat': 0.347},
  {'cat': 0.036, 'egg': 0.139, 'green': 0.139, 'ham': 0.081, 'sam': 0.139},
  {'cat': 0.036, 'dog': 0.22, 'fox': 0.22, 'jump': 0.22, 'lazi': 0.22},
@@ -97,6 +106,15 @@ def test_tokenize():
     assert tokenize("Hello World!", nlp) == ['hello', 'world']
     assert tokenize("This is sentence one. This is sentence two.", nlp) == ['sentence', 'sentence']
     assert tokenize("The well-known actor appeared on TV.", nlp) == ['know', 'actor', 'appear']
+
+def test_tokenize_2():
+    file_path = os.path.join(xml_dir, "2900newsML.xml")
+    nlp = spacy.load("en_core_web_sm")
+    text = gettext(file_path)
+    counts = Counter(tokenize(text, nlp))
+    for k, v in counts.items():
+        assert counts_expected[k] == v 
+
 
 def test_doc_freq():
     freq = doc_freq(tok_corpus)

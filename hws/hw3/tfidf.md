@@ -28,13 +28,14 @@ We will test your TFIDF functionality using `test_tfidf.py`, which uses the enti
 ```bash
 $ pytest -vv test_tfidf.py
 ============================================== test session starts ===============================================
+test_tfidf.py::test_gettext PASSED                                                              [ 14%]
+test_tfidf.py::test_tokenize PASSED                                                             [ 28%]
+test_tfidf.py::test_tokenize_2 PASSED                                                           [ 42%]
+test_tfidf.py::test_doc_freq PASSED                                                             [ 57%]
+test_tfidf.py::test_compute_tfidf_i PASSED                                                      [ 71%]
+test_tfidf.py::test_compute_tfidf PASSED                                                        [ 85%]
+test_tfidf.py::test_summarize PASSED                                                            [100%]
 
-test_tfidf.py::test_gettext PASSED                                                                         [ 16%]
-test_tfidf.py::test_tokenize PASSED                                                                        [ 33%]
-test_tfidf.py::test_doc_freq PASSED                                                                        [ 50%]
-test_tfidf.py::test_compute_tfidf_i PASSED                                                                 [ 66%]
-test_tfidf.py::test_compute_tfidf PASSED                                                                   [ 83%]
-test_tfidf.py::test_summarize PASSED                                                                       [100%]                     
 ```
 
 ## Description
