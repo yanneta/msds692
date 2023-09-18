@@ -77,6 +77,7 @@ def summarize(xmlfile, doc_freq, N,  n:int) -> list:
     Given xml file, n and the tfidf dictionary 
     return up to n (word,score) pairs in a list. Discard any terms with
     scores < 0.01. Sort the (word,score) pairs by TFIDF score in reverse order.
+    if words have the same score, they should be sorted in alphabet order.
     """
     # your code here
 

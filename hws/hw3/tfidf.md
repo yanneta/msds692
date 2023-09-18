@@ -108,7 +108,7 @@ Our "most common word" mechanism is simple and pretty effective but not as good 
 
 We need to use TFIDF on a corpus of articles from which we can compute the term frequency across articles.  Here is how we will execute our program (`summarize.py`):
 
-Before we use `summarize.py`, let's tokenize the entire corpus and safe the results. Follow the following steps in the `compute_tok_corpus.py` file:
+Before we use `summarize.py`, let's tokenize the entire corpus and save the results. Follow the following steps in the `compute_tok_corpus.py` file:
 
 1. Get a list of all xml_files in the corpus (~/data/reuters-vol1-disk1-subset).
 2. Get a list of texts for all files xml_files.
