@@ -32,10 +32,10 @@ def tokenize(text, nlp) -> list:
     Tokenize text and return a non-unique list of tokenized words
     found in the text. 
       1. Normalize to lowercase. Strip punctuation, numbers, and `\r`, `\n`\, `\t`. 
-      2. Replace multiple spaces for a single space
+      2. Replace multiple spaces for a single space.
       3. Tokenize with spacy.
-      4. Remove stopwords with spacy..
-      5. Remove tokens with len <= 2
+      4. Remove stopwords with spacy.
+      5. Remove tokens with len <= 2.
       6. Apply lemmatization to words using spacy.
     """
     text = text.lower()
