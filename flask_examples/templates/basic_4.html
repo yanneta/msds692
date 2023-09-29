@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Basic HTML Template</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>Hi! {{name}}.</p>
+    <!--unordered list-->
+    <ul>
+       {% for x in letters %}
+       <li> {{x}} </li>
+        {% endfor %}
+    </ul>
+
+ 
+    {% if "p" in letters %}
+       <p> p is in the list!</p>
+    {% else %}
+       <p> p is not the list!</p>
+    {% endif %}
+
+</body>
+</html>
+
+
