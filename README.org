@@ -29,10 +29,10 @@ Here is a tentative schedule for the course:
 | Sep 11 | Text feature extraction|[[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_5_feature_from_text.ipynb][lecture_5_feature_from_text.ipynb]] | |
 | Sep 15 | Text manipulation, Spacy | [[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_6_spacy.ipynb][lecture_6_spacy.ipynb]], [[https://github.com/yanneta/msds692/blob/master/notebooks/lab_lect_6.ipynb][lab_lec_6.ipynb]]| HW3: TFIDF (due Sep 21), Lab 4 |
 | Sep 18 | EXAM/  Hashtable implementations| [[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_7_hashtable.ipynb][lecture_7_hashtable.ipynb]], [[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_7_dict.ipynb][lecture_7_dict.ipynb]]| | 
-| Sep 22 | Scraping with Selenium | | HW4: Hash table (due Sep 28) |
-| Sep 25 | Selenium Part 2 | | |
-| Sep 29 | Flask| | HW5: Recommending server (due Oct 5)|
-| Oct 2 | REST API| | |
+| Sep 22 | Scraping with Selenium | see lecture_8*.ipynb | HW4: Hash table (due Sep 28) |
+| Sep 25 | Selenium Part 2 | see lecture_9*.ipynb| |
+| Sep 29 | Flask| see flask_examples dir | HW5: Recommending server (due Oct 5)|
+| Oct 2 | REST API| see lecture_11_*.ipynb| |
 | Oct 6 | End to end Data Science Project| | |
 | Oct 9 | GPT for creating labels| | |
 | Oct 13 | Exam| | |
