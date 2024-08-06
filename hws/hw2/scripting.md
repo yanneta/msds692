@@ -51,7 +51,7 @@ Example output:
  
 Note that the eval lines that we are interested in start at epoch 5( `Ep 5`.) 
 
-Deliverables:
+**Deliverables:**
 A script named `stats_per_experiment_eval.sh`
 
 Testing:
@@ -78,8 +78,7 @@ For the data_domset_4-12-0.2_d_0.3_e60_p_c.log this would look like:
 
 domset,4-12-0.2,0.3,60, 49.75,25
 
-
-Deliverables:
+**Deliverables:**
 A script named `best_flips_all_experiments.sh`
 
 Testing:
