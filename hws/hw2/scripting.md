@@ -15,7 +15,7 @@ INFO:root:Train Ep 51 Flips Med: 63.00, Mean: 89.43 Backflips Med: 23.00 Mean: 4
 Results in this output:
 51,63.00,89.43,23.00, 48.64,100.00,0.42
 
-*Deliverables:*
+**Deliverables:**
 A script named `stats_per_experiment.sh` that takes as an argument the path to a specific log file.
 `./test_stats_per_experiment.sh ~/data/train_logs/data_domset_4-12-0.2_d_0.3_e60.log `
 
