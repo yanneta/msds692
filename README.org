@@ -9,30 +9,20 @@ Although this course is called "Data Acquisition," it is important to recognize 
 *Grading*
 Exams 60%, HWs 30%, Labs 10%
 
-To successfully pass the course, a student must achieve a minimum grade of 50% on the exams.
-
 
 *Instructor*
 Yannet Interian (yinterian@usfca)
 
+*Topics*
+- HTML & BeautifulSoup
+- Terminal, command-line and git
+- Pandas data manipulation
+- Data Formats, XML, XPath
+- Text feature extraction, text manipulation, Spacy
+- Scraping the web with Selenium
+- Flask
+- REST APIs
+- End to end Data Science Project
+- ChatGPT and prompt engineering for creating labels
 
-* Syllabus
-Here is a tentative schedule for the course:
 
-| Date | Topic    | Notebooks| Homework / Lab     |
-|------+----------+----------+--------------------|
-| Aug 25 | HTLM & BeautifulSoup|[[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_1_beautifulsoup.ipynb][lecture_1_beautifulsoup.ipynb]] | HW1: BeautifulSoup (due Aug 31)|
-| Aug 28 | Terminal & command-line| | Lab 1|
-| Sep 1 | Command-line & git| | Lab 2|
-| Sep 4 | Labor Day - No Class| | | 
-| Sep 8 | Data Formats, XML, XPath | [[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_4_xml_xpath.ipynb][lecture_4_xml_xpath.ipynb]], [[https://github.com/yanneta/msds692/blob/master/notebooks/lab_3.ipynb][lab_3.ipynb]] | HW2: Data pipeline (due Sep 14) Lab 3|
-| Sep 11 | Text feature extraction|[[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_5_feature_from_text.ipynb][lecture_5_feature_from_text.ipynb]] | |
-| Sep 15 | Text manipulation, Spacy | [[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_6_spacy.ipynb][lecture_6_spacy.ipynb]], [[https://github.com/yanneta/msds692/blob/master/notebooks/lab_lect_6.ipynb][lab_lec_6.ipynb]]| HW3: TFIDF (due Sep 21), Lab 4 |
-| Sep 18 | EXAM/  Hashtable implementations| [[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_7_hashtable.ipynb][lecture_7_hashtable.ipynb]], [[https://github.com/yanneta/msds692/blob/master/notebooks/lecture_7_dict.ipynb][lecture_7_dict.ipynb]]| | 
-| Sep 22 | Scraping with Selenium | see lecture_8*.ipynb | HW4: Hash table (due Sep 28) |
-| Sep 25 | Selenium Part 2 | see lecture_9*.ipynb| |
-| Sep 29 | Flask| see flask_examples dir | HW5: Recommending server (due Oct 5)|
-| Oct 2 | REST API| see lecture_11_*.ipynb| |
-| Oct 6 | End to end Data Science Project| | |
-| Oct 9 | GPT for creating labels| | |
-| Oct 13 | Exam| | |
