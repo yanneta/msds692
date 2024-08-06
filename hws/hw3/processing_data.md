@@ -65,7 +65,7 @@ def normalize_var(df, col, mean, std):
 
 
 ### Task 5: Put it all together.
-
+Follow the steps in `processing_dataset.ipynb` to complete the processing of the dataset.
 
 
 ## Deliverables:
