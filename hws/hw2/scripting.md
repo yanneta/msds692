@@ -44,10 +44,10 @@ INFO:root:parms [0.13 0.36] 0.01
 
 
 The output format should be a CSV printed to the standard output with the header:
-“Epoch,med_flips,mean_flips,accuracy,loss,ci_mean_flips1,ci_mean_flip_2,ci_med_flips1,ci_med_flip_2,parm1,parm2,parm3”
+“epoch,med_flips,mean_flips,accuracy,loss,ci_mean_flips1,ci_mean_flip_2,ci_med_flips1,ci_med_flip_2,parm1,parm2,parm3”
 
 Example output:
-55,62.50,92.39,100.00,0.43,90.41, 98.13,62.00,62.00,0.13,0.36,0.01
+55,62.50,92.39,100.00,0.43,90.41,98.13,62.00,62.00,0.13,0.36,0.01
  
 Note that the eval lines that we are interested in start at epoch 5( `Ep 5`.) 
 
