@@ -1,8 +1,6 @@
 # Data Processing and Text Manipulation Exercises
 
-## Exercise 1: Filter and Extract Data from a Log File
-
-### Given Data
+### Exercise 1: Filter and Extract Data from a Log File
 
 Download and use the following data:
 
@@ -24,4 +22,26 @@ Tasks:
 2024-01-04,Deposit
 2024-01-06,Deposit
 ```
+
+### Exercise 2: Book List Manipulation
+
+Create a file with the following content:
+```plaintext
+1. The Great Gatsby; F. Scott Fitzgerald; 1925; Fiction
+2. To Kill a Mockingbird; Harper Lee; 1960; Fiction
+3. 1984; George Orwell; 1949; Dystopian
+4. Pride and Prejudice; Jane Austen; 1813; Romance
+5. The Catcher in the Rye; J.D. Salinger; 1951; Fiction
+6. Brave New World; Aldous Huxley; 1932; Dystopian
+7. The Hobbit; J.R.R. Tolkien; 1937; Fantasy
+8. The Lord of the Rings; J.R.R. Tolkien; 1954; Fantasy
+9. The Diary of a Young Girl; Anne Frank; 1947; Biography
+10. The Picture of Dorian Gray; Oscar Wilde; 1890; Fiction
+```
+Tasks:
+1. Find all lines in books.txt that start with either the number 1 or 2.
+2. Extract and filter authors starting with J or F.
+3. Find lines that contain the year '19' followed by any digit.
+4. Exclude all lines that end in 'Fiction'.
+5. Extract lines that end in 'Fiction' or 'Fantasy'.
 
