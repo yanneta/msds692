@@ -20,8 +20,8 @@ def process_time_period(df, static_cols, time_cols):
 
     Returns:
         pd.Series: A Series where the keys are column names, 
-                   and the values are lists of 40 numbers for time series columns
-                   or single numbers for static columns.
+                   and the values are lists (numpy arrays) of 40 numbers for time series
+                   columns or single numbers for static columns.
     """
     # Your code here
 
